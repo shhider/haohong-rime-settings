@@ -1,0 +1,13 @@
+__patch:
+# Rx: emoji:customize:schema=luna_pinyin_simp {
+  - patch/+:
+      __include: emoji_suggestion:/patch
+# }
+
+patch:
+  punctuator/full_shape:
+    "/" : "/"
+    '\' : "、"
+  punctuator/half_shape:
+    "/" : "/"
+    '\' : "、"

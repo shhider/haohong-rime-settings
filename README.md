@@ -1,0 +1,1 @@
+# Haohong-Rime-Settings

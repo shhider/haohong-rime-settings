@@ -1,0 +1,9 @@
+# 使用九个候选词，而非默认的五个候选词
+patch:
+  menu/page_size: 8
+
+  ascii_composer/switch_key:
+    Caps_Lock: commit_code
+    # shift 时提交已输入内容、再切换中英文
+    Shift_L: commit_code
+    Shift_R: commit_code
